@@ -1,0 +1,41 @@
+.header {
+  border-bottom: 2px solid #aaa;
+  background-color: #fefefe;
+}
+
+.header > .center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__user > button, .modal__login > button, .modal__register > button {
+  width: fit-content;
+  margin-left: 10px;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #1877F2;
+  cursor: pointer;
+}
+
+.header__user button:hover, .modal__login > button:hover, .modal__register > button:hover {
+  background-color: #2851A3;
+}
+
+.modal__login, .modal__register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal__login input, .modal__register input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  outline: none;
+  border: 2px solid #aaa;
+  border-radius: 10px;
+  color: #000;
+  background-color: #eee;
+}
